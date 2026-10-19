@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
@@ -34,11 +33,14 @@
                 <a href="#games" class="hover:text-slate-900 transition-colors">Plunger Games</a>
                 <a href="#pipeline" class="hover:text-slate-900 transition-colors">In Development</a>
                 <a href="#assistant" class="hover:text-slate-900 transition-colors">_uhh</a>
-                <a href="#feedback" class="hover:text-slate-900 transition-colors">Feedback</a>
             </nav>
-            <div>
-                <a href="#feedback" class="bg-slate-900 text-white hover:bg-slate-800 px-4 py-2 rounded-lg text-sm font-medium transition-all shadow-sm">
-                    Contact Studio
+            <div class="flex items-center space-x-3">
+                <a href="https://plunger-studio-teams.itch.io/" target="_blank" rel="noopener noreferrer" class="border border-slate-300 text-slate-700 hover:bg-slate-100 px-3 py-2 rounded-lg text-sm font-medium transition-all shadow-sm flex items-center space-x-1">
+                    <span>Itch.io</span>
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <a href="https://plunger-studio-teams.itch.io/" target="_blank" rel="noopener noreferrer" class="bg-slate-900 text-white hover:bg-slate-800 px-4 py-2 rounded-lg text-sm font-medium transition-all shadow-sm">
+                    Visit Itch.io
                 </a>
             </div>
         </div>
@@ -56,14 +58,15 @@
                     Independent web publishing crafted with curiosity.
                 </h1>
                 <p class="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed">
-                    Welcome to Plunger Teams—a digital publishing house born out of a simple box experiment. Powered by tools like CodePen, GitHub, Netlify, and Gemini assistance, we build quirky web apps, informational registries, and game spin-offs.
+                    Welcome to Plunger Teams—a digital publishing house born out of a simple box experiment. Powered by tools like CodePen, GitHub, Netlify, Itch.io, and Gemini assistance, we build quirky web apps, informational registries, and game spin-offs.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#projects" class="bg-slate-900 text-white font-medium px-6 py-3 rounded-xl hover:bg-slate-800 transition-all shadow-sm">
                         Explore Projects
                     </a>
-                    <a href="#games" class="bg-white border border-slate-300 text-slate-700 font-medium px-6 py-3 rounded-xl hover:bg-slate-50 transition-all">
-                        Plunger Games
+                    <a href="https://plunger-studio-teams.itch.io/" target="_blank" rel="noopener noreferrer" class="bg-white border border-slate-300 text-slate-700 font-medium px-6 py-3 rounded-xl hover:bg-slate-50 transition-all flex items-center space-x-2">
+                        <span>Visit Itch.io Studio</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                     </a>
                 </div>
             </div>
@@ -85,7 +88,7 @@
                     <div class="w-10 h-10 bg-slate-100 text-slate-900 rounded-lg flex items-center justify-center font-semibold mb-4">02</div>
                     <h3 class="text-lg font-bold text-slate-900 mb-2">Modern Stack</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Built lean and efficiently using CodePen for prototyping, GitHub for version control, Netlify for lightning-fast deployments, and Gemini AI for architectural code support.
+                        Built lean and efficiently using CodePen, GitHub, Netlify, Itch.io for game releases, and Gemini AI for architectural code support.
                     </p>
                 </div>
                 <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
@@ -214,26 +217,55 @@
                     <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Subsidiary</span>
                     <h2 class="text-3xl font-bold mt-1">Plunger Games</h2>
                 </div>
-                <p class="text-slate-400 text-sm max-w-md mt-4 md:mt-0">
-                    Our dedicated game and website making company arm, bringing interactive web gaming to life.
-                </p>
+                <div class="mt-4 md:mt-0 flex items-center space-x-3">
+                    <a href="https://plunger-studio-teams.itch.io/" target="_blank" rel="noopener noreferrer" class="bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded-xl text-xs font-semibold transition-all inline-flex items-center space-x-2 shadow-sm">
+                        <span>Plunger Games on Itch.io</span>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
             </div>
 
-            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-8 shadow-xl">
-                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Game 1: Countryball Attack -->
+                <div class="bg-slate-800 border border-slate-700 rounded-2xl p-8 shadow-xl flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-semibold px-3 py-1 bg-amber-500/20 text-amber-400 rounded-full border border-amber-500/30">Debut Title</span>
-                        <h3 class="text-2xl font-bold mt-3">Countryball Attack</h3>
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <span class="text-xs font-semibold px-3 py-1 bg-amber-500/20 text-amber-400 rounded-full border border-amber-500/30 w-fit">Debut Title</span>
+                            <span class="text-xs text-slate-400 font-mono">Genre: 2D Defense</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Countryball Attack</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            Defend your base from incoming waves of 2D countryballs using strategic placement and quick reflexes. Simple to learn, highly entertaining, and available now on Itch.io!
+                        </p>
                     </div>
-                    <div class="text-sm text-slate-400 font-mono">
-                        Genre: <span class="text-white">2D Defense</span>
+                    <div class="pt-4 border-t border-slate-700 flex items-center justify-between">
+                        <span class="text-xs text-slate-400">Playable Browser Experience</span>
+                        <a href="https://plunger-studio-teams.itch.io/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-amber-400 hover:underline flex items-center space-x-1">
+                            <span>Play on Itch.io</span>
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </a>
                     </div>
                 </div>
-                <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                    The first and only game under Plunger Games! Defend your base from incoming waves of 2D countryballs using strategic placement and quick reflexes. Simple to learn, highly entertaining, and built natively for the web.
-                </p>
-                <div class="inline-flex items-center space-x-2 bg-slate-900 text-slate-300 px-4 py-2.5 rounded-xl border border-slate-700 text-xs font-medium">
-                    <span>🎮 Playable 2D Browser Experience</span>
+
+                <!-- Game 2: Space Attack -->
+                <div class="bg-slate-800 border border-slate-700 rounded-2xl p-8 shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <span class="text-xs font-semibold px-3 py-1 bg-indigo-500/20 text-indigo-400 rounded-full border border-indigo-500/30 w-fit">New Release</span>
+                            <span class="text-xs text-slate-400 font-mono">Genre: Arcade / Retro</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Space Attack</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            A classic space invader-style retro game. Defend your ship against incoming waves in space. Looks like a simple low-poly arcade game... but there might be more lurking beneath the surface.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-700 flex items-center justify-between">
+                        <span class="text-xs text-slate-400">Playable Browser Experience</span>
+                        <a href="https://plunger-studio-teams.itch.io/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-indigo-400 hover:underline flex items-center space-x-1">
+                            <span>Play on Itch.io</span>
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -299,58 +331,21 @@
         </div>
     </section>
 
-    <!-- Feedback Section -->
-    <section id="feedback" class="py-20 bg-white border-t border-slate-200">
-        <div class="max-w-3xl mx-auto px-6 text-center">
-            <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Community First</span>
-            <h2 class="text-3xl font-bold text-slate-900 mt-1 mb-4">We Accept Your Feedback</h2>
-            <p class="text-slate-600 text-sm mb-8 leading-relaxed">
-                Plunger Teams thrives on user input. Whether you have feedback on <span class="font-medium text-slate-900">GEZR</span>, suggestions for <span class="font-medium text-slate-900">Countryball Attack</span>, or thoughts on <span class="font-medium text-slate-900">Publicity</span>, we would love to hear from you.
-            </p>
-            <form class="bg-slate-50 border border-slate-200 rounded-2xl p-8 text-left space-y-4 shadow-sm" onsubmit="event.preventDefault(); alert('Thank you for your feedback! Plunger Teams and _uhh have received your message.');">
-                <div>
-                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-2">Your Name / Handle</label>
-                    <input type="text" required class="w-full bg-white border border-slate-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900" placeholder="e.g., BoxEnthusiast99">
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-2">Target Project / Subsidiary</label>
-                    <select class="w-full bg-white border border-slate-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900">
-                        <option>General Plunger Teams Studio</option>
-                        <option>Plunger Games (Countryball Attack)</option>
-                        <option>JustABoxSite</option>
-                        <option>Container Captions</option>
-                        <option>Manigo's Aura / Aura 2</option>
-                        <option>GEZR (Global Exclusion Zone Registry)</option>
-                        <option>Publicity (In Development)</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-2">Your Feedback / Message</label>
-                    <textarea rows="4" required class="w-full bg-white border border-slate-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900" placeholder="Tell us what you think or report a bug..."></textarea>
-                </div>
-                <button type="submit" class="w-full bg-slate-900 text-white font-medium py-3 rounded-xl hover:bg-slate-800 transition-all shadow-sm">
-                    Submit Feedback
-                </button>
-            </form>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 text-xs">
         <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-                <p>&copy; 2026 Plunger Teams & Plunger Games. All rights reserved. Built with CodePen, GitHub, Netlify, and Gemini.</p>
+                <p>&copy; 2026 Plunger Teams & Plunger Games. All rights reserved. Built with CodePen, GitHub, Netlify, Itch.io, and Gemini.</p>
             </div>
             <div class="flex space-x-6">
                 <a href="#about" class="hover:text-white transition-colors">About</a>
                 <a href="#projects" class="hover:text-white transition-colors">Projects</a>
                 <a href="#games" class="hover:text-white transition-colors">Plunger Games</a>
                 <a href="#pipeline" class="hover:text-white transition-colors">Pipeline</a>
-                <a href="#assistant" class="hover:text-white transition-colors">_uhh</a>
+                <a href="https://plunger-studio-teams.itch.io/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Itch.io</a>
             </div>
         </div>
     </footer>
 
 </body>
 </html>
-```
